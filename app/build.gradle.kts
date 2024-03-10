@@ -1,5 +1,3 @@
-import com.sun.tools.javac.Main.compile
-
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
@@ -68,5 +66,6 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation("net.objecthunter:exp4j:0.4.8")
+    implementation("androidx.core:core-splashscreen:1.0.0")
 
 }
